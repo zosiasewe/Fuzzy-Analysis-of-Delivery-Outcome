@@ -43,6 +43,6 @@ The dataset contains fetal monitoring outcomes and corresponding delivery attrib
 
 ---
 
-**Author:** Zosia Sewe;   
+**Author:** Zofia Sewerynska; Ewa Radwan   
 **Course:** Fuzzy Data Analysis – 2024 5
 **Supervisor:** Robert Czabanski, PhD, DSc  
