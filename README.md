@@ -32,6 +32,56 @@ The project explores fuzzy rule creation, optimization via grid search, and comp
 - Evaluated performance using **5-fold cross-validation**.
 - Measured classification quality using the **mean G-measure** based on comparison with pH-based outcome classification.
 
+**Results Obtained:**
+    Best from fold 1 → G-measure = 0.9354, p_value = -0.5, delta = -0.5
+    G-measure on the test data = 0.9428
+    Best from fold 2 → G-measure = 0.9276, p_value = -0.5, delta = -0.5
+    G-measure on the test data = 0.9636
+    Best from fold 3 → G-measure = 0.9476, p_value = -0.5, delta = -0.5
+    G-measure on the test data = 0.8660
+    Best from fold 4 → G-measure = 0.9189, p_value = -0.5, delta = -0.5
+    G-measure on the test data = 1.0000
+    Best from fold 5 → G-measure = 0.9524, p_value = -0.5, delta = -0.5
+    G-measure on the test data = 0.8864
+    Results across all folds: Median G-measure = 0.9428
+    Final G - measure output (median) : 0.9428
+    
+###  Parameter Optimization via Evolutionary Strategy
+- Tuned fuzzy model parameters:
+  - p_i for each suspicious rule
+  - delta value
+- Performed **Evolutionary Strategy** over the ranges `[-0.5, 0.5]` of initial parameters 
+- Evaluated performance using **5-fold cross-validation**.
+- Measured classification quality using the **mean G-measure**
+
+**Results Obtained:**
+  Selection mode: mi_plus_lambda
+  Number of suspicious rules: 4
+  Total parameters to optimize: 5
+  Population size μ = 100, Offspring size λ = 500
+  
+  === Generation 1 ===
+  Best fitness: 0.9428
+  Offspring best fitness: 0.9428
+  
+  === Generation 2 ===
+  Best fitness: 0.9428
+  
+  Converged after 2 generations
+  Final fitness delta: 0.00e+00
+  
+   Best Solution 
+  delta : -0.2690
+  
+  p(i) values for suspicious rules : 
+  Rule (0.5, 0.5, 0.5): p(0) = 0.2192
+  Rule (0.5, -1.0, 0.5): p(1) = -0.3355
+  Rule (-1.0, 0.5, 0.5): p(2) = -0.2341
+  Rule (0.5, 0.5, -1.0): p(3) = 0.4376
+  
+  Signals with high informativeness |y0| > 0.5 : 166
+
+
 ##  Technologies Used
 - Python
 - NumPy
