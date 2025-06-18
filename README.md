@@ -81,7 +81,6 @@ The project explores fuzzy rule creation, optimization via grid search, and comp
   
   Signals with high informativeness |y0| > 0.5 : 166
 
-
 ##  Technologies Used
 - Python
 - NumPy
@@ -91,12 +90,8 @@ The project explores fuzzy rule creation, optimization via grid search, and comp
 ##  Dataset
 The dataset contains fetal monitoring outcomes and corresponding delivery attributes, provided by the course instructor.
 
-##  Next Steps
--  Task 3: Use evolutionary strategies to further optimize `p(i)` and ∆.
--  Analyze informativeness of signals with |y₀| > 0.5 based on best model configuration.
-
 ---
 
 **Author:** Zofia Sewerynska; Ewa Radwan   
-**Course:** Fuzzy Data Analysis – 2024 5
+**Course:** Fuzzy Data Analysis – 2025
 **Supervisor:** Robert Czabanski, PhD, DSc  
