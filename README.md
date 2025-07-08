@@ -1,6 +1,6 @@
 # Fuzzy Analysis of Delivery Outcome
 **Done in collaboration with @EvaBlackart.**
-This project is a solution to selected tasks from the course **Fuzzy Data Analysis** under the supervision of **Dr. Robert Czabanski**, conducted in **Gliwice, 2025**.
+This project is a solution to selected tasks from the course **Fuzzy Data Analysis** under the supervision of **Prof. Robert Czabanski**, conducted in **Gliwice, 2025**.
 
 ##  Project Overview
 
